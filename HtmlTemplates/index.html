@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="{{ static_url('connect.js') }}" defer> </script>
+    <script type="text/javascript" src="{{ static_url('game.js') }}" defer> </script>
+    <script src="{{ static_url('lib/jquery-3.4.1.min.js') }}"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="{{ static_url('lib/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ static_url('lib/mystyle.css') }}">
+    <link rel="shortcut icon" href="{{ static_url('football-game.png') }}">
+    <title>Football game</title>
+</head>
+<body class="content">
+    <h1>FOOTBALL</h1>
+        <h id="template_print">FOOTBALL GAME </h>
+        <h id="game_status">Not started</h>
+    <div id="buttons">
+        <button id="create_game">Create a game</button>
+        <button id="join_game">Join a game</button>
+        <input name="Game id" type="number" maxlength="3" id="gameid_input"/>
+    </div>
+    <div id="field">
+        <canvas id="viewport"> </canvas>
+        <div id="field_items"> </menu>
+    </div>
+</body>
+</html>
