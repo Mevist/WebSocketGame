@@ -1,0 +1,60 @@
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+
+#field {
+  width: 950px;
+  height: 1300px;
+  position: relative;
+  /* margin: auto; */
+}
+
+#viewport {
+  height: 100%;
+  width: 100%;
+}
+
+#field_items {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  margin-top: -10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.col {
+  padding: 0;
+}
+
+.pad-top{
+  padding-top: 7px;
+  width: 95%;
+}
+
+.field_buttons {
+  padding: 20px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  width: 67px;
+  height: 67px;
+  background: transparent;
+  font-size:  0px; 
+  /* 16px or 0px */
+  border: none !important;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.goal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
